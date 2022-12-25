@@ -13,11 +13,11 @@
 
 1. Сбор инфорамции о вакансиях с публичных сайтов по тегам [Data Science, Data Analyst, Data Engineer, Machine Learning, MLOps, Аналитик данных, Инженер по данным]. Наше решение - мы собираем максимально возможное количество данных, чтобы потом решить какие из них мы будем использовать в объединенном датасете на постоянной основе. Основные источники наших данных:
 
-    * сайт [career.habr.com](https://career.habr.com) - сайт, который помогает найти работу мечты в IT. Сайт содержит более 3 340 вакансий. Для его парсинга по тегам использовался вот этот парсер [parser](https://github.com/shakhovak/DATATON_22_boring-wozniak/blob/master/HABR_parser.ipynb). С него мы получили более 1 000 вакансии для последующего объединения.
+    * сайт [career.habr.com](https://career.habr.com) - сайт, который помогает найти работу мечты в IT. Сайт содержит более 3 340 вакансий. Для его парсинга по тегам использовался вот этот парсер [parser](https://github.com/shakhovak/DATATON_22_boring-wozniak/blob/master/parsers_used/HABR_parser.ipynb). С него мы получили более 1 000 вакансии для последующего объединения.
 
     * сайт [superjob.ru](https://www.superjob.ru/) - это лучшие предложения высокооплачиваемой работы от российских и  зарубежных компаний. Собрали 20 вакансий. Данные собирали с помощью API для этого сайта.
 
-    * сайт [rabota.ru](https://www.rabota.ru/) - найдем работу за вас. Для сбора данных использовался метод скраппинга и удалось собрать 300 вакансий. Для работы использовался [парсер](https://github.com/shakhovak/DATATON_22_boring-wozniak/blob/master/workru_v3.ipynb).
+    * сайт [rabota.ru](https://www.rabota.ru) - найдем работу за вас. Для сбора данных использовался метод скраппинга и удалось собрать 300 вакансий. Для работы использовался [парсер](https://github.com/shakhovak/DATATON_22_boring-wozniak/blob/master/parsers_used/workru_v3.ipynb).
 
     * [Telegram канал](https://t.me/datasciencejobs) - лучшие вакансии по Data Science, ML, CV, AI ... Для сборки использовался скраппинг на основе Selenium. С него мы получили несколько сотен вакансий.
 
