@@ -17,9 +17,9 @@
 
     * сайт [superjob.ru](https://www.superjob.ru/) - это лучшие предложения высокооплачиваемой работы от российских и  зарубежных компаний. Собрали 20 вакансий. Данные собирали с помощью API для этого сайта.
 
-    * сайт [rabota.ru](https://www.rabota.ru) - найдем работу за вас. Для сбора данных использовался метод скраппинга и удалось собрать 300 вакансий. Для работы использовался [парсер](https://github.com/shakhovak/DATATON_22_boring-wozniak/blob/master/parsers_used/workru_v3.ipynb).
+    * сайт [rabota.ru](https://www.rabota.ru) - найдем работу за вас. Для сбора данных использовался метод скраппинга и удалось собрать 300 вакансий. Для работы использовался [парсер](https://github.com/shakhovak/DATATON_22_boring-wozniak/blob/master/parsers_used/workru_v3.ipynb). Также мы сделали [пасрер](https://github.com/shakhovak/DATATON_22_boring-wozniak/blob/master/parsers_used/zarpalata_ru_api.ipynb) этого сайта на базе api тестовой и продуктивной сред. Анализ бесплатной версии API показал, что для задач дататона не получится собрать полезные данные, так как API позволяет работать с ваканиями только за последний месяц и среди них очень вакансий, связанных с ML & DS. Результаты работы приложены в виде ноутбука к проекту на случай, если появятся задачи, которые сможет решить имеющийся API.
 
-    * [Telegram канал](https://t.me/datasciencejobs) - лучшие вакансии по Data Science, ML, CV, AI ... Для сборки использовался скраппинг на основе Selenium. С него мы получили несколько сотен вакансий.
+    * [Telegram канал](https://t.me/datasciencejobs) - лучшие вакансии по Data Science, ML, CV, AI ... Для сборки использовался скраппинг на основе Selenium с помощью вот этого [парсера](https://github.com/shakhovak/DATATON_22_boring-wozniak/blob/master/parsers_used/telegram-scrapper.ipynb). С него мы получили несколько более 800 вакансий.
 
     * сайт [hh.ru](https://hh.ru) - один из самых популярных источников вакансий. Мы использовали API для этого сайта и с помощью парсера получили почти 1000 вакансий.
 
