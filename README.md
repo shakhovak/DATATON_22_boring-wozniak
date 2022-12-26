@@ -8,7 +8,7 @@
 * мы сможем смотреть динамику рынка вакансий, в дальнейшем делая срезы рынка из выбранных источников с определенной периодичностью
 * мы сможем подключить базу данных для хранения информации
 
-<img src="https://www.hillwebcreations.com/wp-content/uploads/2020/09/the-value-of-market-research-for-seo.jpg"  width="600" height="200">
+<img src="https://www.hillwebcreations.com/wp-content/uploads/2020/09/the-value-of-market-research-for-seo.jpg"  width="400" height="200">
 
 # Этапы проекта:
 
